@@ -56,6 +56,10 @@ export default defineComponent({
   &__list {
     min-width: 45vw;
     padding: $grid-gap 0 !important;
+    
+    @include breakpoint-lg {
+      min-width: 75vw;
+    }
 
     &__price {
       margin-left: auto;
