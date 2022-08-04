@@ -81,7 +81,7 @@ export default defineComponent({
       if (this.sortedCartList.length < 1) {
         return 0;
       } else {
-        const reducer = (accumulator: any, currentValue: any) => accumulator + currentValue;
+        const reducer = (accumulator: never, currentValue: never) => accumulator + currentValue;
         const total: number = this.sortedCartList.map((item: { price: number; qty: number }) => {
           return item.qty * item.price;
         }).reduce(reducer);
@@ -119,9 +119,9 @@ export default defineComponent({
         price: number;
         qty: number;
       },
-      e: any
+      event: { target: { value: string; }; }
     ) {
-      updateTarget.qty = Number(e.target.value);
+      updateTarget.qty = Number(event.target.value);
       return this.$store.dispatch("updateCart", updateTarget);
     },
     removeItemFormCart(removeTarget: { id: string }) {
