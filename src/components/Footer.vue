@@ -5,7 +5,8 @@
         @blur="showPopover = false">ABOUT</button>
       <transition name="slideDown" mode="out-in" appear>
         <div class="footer__about__popover" v-if="showPopover">本系統採用<a href="https://v3.vuejs.org/"
-            target="_blank">Vue3</a>進行前端開發，圖片素材來源於<a href="https://unsplash.com/" target="_blank">Unsplash</a>。</div>
+            target="_blank">Vue3</a>進行前端開發，圖片素材來源於<a href="https://picsum.photos/" target="_blank">Lorem Picsum</a>。
+        </div>
       </transition>
     </div>
     <div class="footer__copyright">&copy; 2021<span v-if="thisYear != 2021"

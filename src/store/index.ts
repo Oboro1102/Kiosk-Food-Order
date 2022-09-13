@@ -16,42 +16,42 @@ export default createStore({
         id: '1',
         kind: 'ch',
         title: '中餐 A',
-        pic: require('@/assets/images/andres-rodriguez-3jJtXTwLZw4-unsplash.jpg'),
+        pic: 'https://picsum.photos/id/102/360/210',
         price: 390
       },
       {
         id: '2',
         kind: 'ch',
         title: '中餐 B',
-        pic: require('@/assets/images/drew-taylor-jFu2L04tMBc-unsplash.jpg'),
+        pic: 'https://picsum.photos/id/1080/360/210',
         price: 590
       },
       {
         id: '3',
         kind: 'ch',
         title: '中餐 C',
-        pic: require('@/assets/images/sj-Jinnqw9bHjI-unsplash.jpg'),
+        pic: 'https://picsum.photos/id/139/360/210',
         price: 290
       },
       {
         id: '4',
         kind: 'ws',
         title: '西餐 A',
-        pic: require('@/assets/images/anna-volkova-LeU-Tdabc5E-unsplash.jpg'),
+        pic: 'https://picsum.photos/id/292/360/210',
         price: 590
       },
       {
         id: '5',
         kind: 'ws',
         title: '西餐 B',
-        pic: require('@/assets/images/caroline-attwood-bpPTlXWTOvg-unsplash.jpg'),
+        pic: 'https://picsum.photos/id/425/360/210',
         price: 690
       },
       {
         id: '6',
         kind: 'ws',
         title: '西餐 C',
-        pic: require('@/assets/images/sam-moqadam-PcI8L5CG5XA-unsplash.jpg'),
+        pic: 'https://picsum.photos/id/429/360/210',
         price: 490
       }
     ] as {
