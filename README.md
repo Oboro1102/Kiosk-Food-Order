@@ -1,12 +1,14 @@
-# Kiosk-Food-Order
-使用 Vue3 + Typescript 製作自助點餐系統。
+# 自助點餐系統
+### 實裝功能
+* 餐點列表
+* 餐點下訂
+* 費用計算
+* 隨機取號
 
-***初次啟動專案請先執行 npm i***
+### 資料使用
+* 圖片
+> 食物素材來源於 [Lorem Picsum](https://picsum.photos/)
 
-## 可執行的指令
-
-### `npm run serve`
-啟動本地端專案
-
-### `npm run build`
-打包專案
+### 專案執行指令
+* 初次執行 `npm install`
+* 啟動專案 `npm run serve`
